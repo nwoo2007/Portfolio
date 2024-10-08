@@ -1,0 +1,41 @@
+html {
+  background: rgb(99, 21, 39);
+}
+
+body {
+  background: rgb(205, 205, 214);
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px 50px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+img {
+  border-radius: 10px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 10px 10px 15px rgb(0, 0, 0);
+  transition: box-shadow 0.5s;
+}
+
+table {
+  margin: auto;
+  /* gets rid of spaces between tables */
+  /* border-collapse: collapse; */
+  color: rgb(219, 222, 233);
+}
+
+td {
+  border: 10px solid rgb(205, 205, 214);
+  border-radius: 30px;
+  padding: 10px 15px;
+  background-color: rgb(56, 16, 33);
+}
+
+td:hover {
+  background-color: #153a31;
+}
